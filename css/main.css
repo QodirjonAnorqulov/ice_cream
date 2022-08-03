@@ -1,0 +1,51 @@
+body{}
+/* .parent-card{
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid;
+    position: relative;
+}
+.child-card{
+    width: 200px;
+    height: 200px;
+    border: 1px solid greenyellow;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+} */
+/* .box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+}
+.box1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    z-index: -1;
+} */
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+    min-width: 160px;
+    box-shadow: 25px 25px;
+    padding: 10px;
+    z-index: 1;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+:root{
+    -o-animation: backwards;
+}
